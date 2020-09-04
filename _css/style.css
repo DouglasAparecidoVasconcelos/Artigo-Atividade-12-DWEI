@@ -1,0 +1,54 @@
+body { 
+    background-color: #5d99c6;
+    margin: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+h3 {
+    border: solid 3px #000000;
+    text-align: center;
+    float: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: sans-serif, Arial, Verdana;
+    font-size:18px;
+    padding-top: 15px;
+}
+.texto-artigo {
+    margin: 10px;
+    padding: 10px;   
+    font-size: 20px; 
+}
+
+ul {     
+    list-style-type: none;
+}
+
+li { 
+    display: inline; 
+    margin: 10px;
+}
+
+img { 
+    size: 100%;
+}
+.rodape{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif, Verdana;
+    height: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    ul {
+        margin-right: 40px;
+    }
+    .rodape{
+        width:100%;
+    }
+}
